@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/activator-akka-spray.iml" filepath="$PROJECT_DIR$/.idea/modules/activator-akka-spray.iml" />
+      <module fileurl="file://$USER_HOME$/akka-spray-slick/activator-akka-spray/.idea_modules/activator-akka-spray-build.iml" filepath="$USER_HOME$/akka-spray-slick/activator-akka-spray/.idea_modules/activator-akka-spray-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/.idea/modules/project.iml" filepath="$PROJECT_DIR$/project/.idea/modules/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/.idea/modules/project-build.iml" filepath="$PROJECT_DIR$/project/.idea/modules/project-build.iml" />
+    </modules>
+  </component>
+</project>
+

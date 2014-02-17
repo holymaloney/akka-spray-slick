@@ -1,0 +1,9 @@
+ui
+help
+about
+projects
+exit
+run
+run db.HelloSlick
+cd ..
+exit
