@@ -1,11 +1,11 @@
-[info] Updating {file:/Users/hps1/activator-akka-spray/project/}activator-akka-spray-build...
-[debug] :: resolving dependencies :: default#activator-akka-spray-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/hps1/deepThought/project/}deepthought-build...
+[debug] :: resolving dependencies :: default#deepthought-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [info] Resolving default#global-plugins;0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: default#global-plugins;0.0 {compile=[default(compile)]}
 [debug] 	found default#global-plugins;0.0 in inter-project
@@ -15,7 +15,7 @@
 [debug] sbt-chain: module revision found in cache: org.jetbrains#sbt-structure;2.2.0
 [debug] 	typesafe-ivy-releases: revision in cache: org.jetbrains#sbt-structure;2.2.0
 [debug] 	found org.jetbrains#sbt-structure;2.2.0 in sbt-chain
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-atmos;0.3.2 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-atmos;0.3.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbt#sbt-atmos;0.3.2
@@ -30,7 +30,7 @@
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0
@@ -77,14 +77,14 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
 [info] Resolving com.github.mpeltonen#sbt-idea;1.5.2 ...
 [debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.5.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.5.2
 [debug] 	typesafe-ivy-releases: revision in cache: com.github.mpeltonen#sbt-idea;1.5.2
 [debug] 	found com.github.mpeltonen#sbt-idea;1.5.2 in sbt-chain
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->master(*)]
 [info] Resolving commons-io#commons-io;2.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
@@ -94,18 +94,18 @@
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0->com.typesafe.sbteclipse#sbteclipse-core;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
@@ -127,26 +127,26 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->master(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0->com.typesafe.sbteclipse#sbteclipse-core;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
@@ -168,26 +168,26 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->master(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@263eaaf0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b2be3db
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.2
 [debug] 	found org.scala-lang#scala-library;2.10.2 in sbt-chain
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->master]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.0 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.0
@@ -730,18 +730,18 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.2 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.2 [compile->master]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0->com.typesafe.sbteclipse#sbteclipse-core;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
@@ -769,21 +769,21 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.2 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->master(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->master]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-sbt#main;0.13.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.0->org.scala-sbt#actions;0.13.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.0->org.scala-sbt#classpath;0.13.0 [compile->default(compile)]
@@ -1111,17 +1111,17 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.2 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.2 [compile->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0->com.typesafe.sbteclipse#sbteclipse-core;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
@@ -1143,28 +1143,28 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->master(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->default#global-plugins;0.0 [compile->default(compile)]
 [debug] == resolving dependencies default#global-plugins;0.0->org.jetbrains#sbt-structure;2.2.0 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-atmos;0.3.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->runtime]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->compile]
 [debug] == resolving dependencies com.typesafe.sbt#sbt-atmos;0.3.2->org.aspectj#aspectjtools;1.7.3 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0->com.typesafe.sbteclipse#sbteclipse-core;2.3.0 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime]
@@ -1192,21 +1192,21 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.2 [runtime->compile]
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.3.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->compile]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->master(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
 [debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.5.2->commons-io#commons-io;2.0.1 [runtime->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.5.2 [compile->master]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->default(compile)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [provided->master]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.0 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-sbt#main;0.13.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#main;0.13.0->org.scala-sbt#actions;0.13.0 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.0->org.scala-sbt#classpath;0.13.0 [compile->default(compile)]
@@ -1534,18 +1534,18 @@
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.2 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.0->org.scala-lang#scala-library;2.10.2 [compile->master]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#activator-akka-spray-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->default]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->compile]
+[debug] == resolving dependencies for default#deepthought-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->default]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-library;2.10.2 [compile->default]
@@ -1563,8 +1563,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#scala-reflect;2.10.2 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.2->org.scala-lang#scala-library;2.10.2 [runtime->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->master]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.2->org.scala-lang#jline;2.10.2 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.2 {optional=[compile(*), master(*)]}
@@ -1579,12 +1579,12 @@
 [debug] 	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.2->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->default]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->runtime]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master]
-[debug] == resolving dependencies default#activator-akka-spray-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->optional(default)]
-[debug] 	resolved ivy file produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/default/activator-akka-spray-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->default]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master]
+[debug] == resolving dependencies default#deepthought-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->optional(default)]
+[debug] 	resolved ivy file produced in /Users/hps1/deepThought/project/target/resolution-cache/default/deepthought-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-atmos;0.3.2!sbt-atmos.jar
 [debug] 	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.3.0!sbteclipse-plugin.jar
@@ -1643,19 +1643,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.0!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 491ms :: artifacts dl 19ms
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT compile produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-compile.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT runtime produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-runtime.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT test produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-test.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT provided produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-provided.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT optional produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-optional.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT compile-internal produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-compile-internal.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT runtime-internal produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-runtime-internal.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT test-internal produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-test-internal.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT plugin produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-plugin.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT sources produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-sources.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT docs produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-docs.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT pom produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-pom.xml
-[debug] 	report for default#activator-akka-spray-build;0.1-SNAPSHOT scala-tool produced in /Users/hps1/activator-akka-spray/project/target/resolution-cache/reports/default-activator-akka-spray-build-scala-tool.xml
-[debug] 	resolve done (491ms resolve - 19ms download)
+[debug] :: resolution report :: resolve 481ms :: artifacts dl 22ms
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT compile produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-compile.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT runtime produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-runtime.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT test produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-test.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT provided produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-provided.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT optional produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-optional.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT compile-internal produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-compile-internal.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT runtime-internal produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-runtime-internal.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT test-internal produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-test-internal.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT plugin produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-plugin.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT sources produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-sources.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT docs produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-docs.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT pom produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-pom.xml
+[debug] 	report for default#deepthought-build;0.1-SNAPSHOT scala-tool produced in /Users/hps1/deepThought/project/target/resolution-cache/reports/default-deepthought-build-scala-tool.xml
+[debug] 	resolve done (481ms resolve - 22ms download)
 [info] Done updating.

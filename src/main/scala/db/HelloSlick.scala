@@ -2,7 +2,7 @@ package db
 
 import scala.slick.driver.H2Driver.simple._
 import java.sql.Timestamp
-import javax.management.remote.rmi._RMIConnection_Stub
+import caseclasses.{Question, Answer, Author}
 
 /**
  * Created by hps1 on 16.02.14.
@@ -11,6 +11,7 @@ import javax.management.remote.rmi._RMIConnection_Stub
 object HelloSlick extends App {
 
   val authors = TableQuery[Authors]
+  val questions = TableQuery[Questions]
   val answers = TableQuery[Answers]
 
 
@@ -28,19 +29,37 @@ object HelloSlick extends App {
 
     // Create the schema by combining the DDLs for the Suppliers and Coffees tables using the query interfaces
 
-    (authors.ddl ++ answers.ddl).create
+    (authors.ddl ++ questions.ddl ++ answers.ddl).create
 
     val author1Id = (authors returning authors.map(_.id)) += Author(None, "Author 1", now , 0)
     val author2Id = (authors returning authors.map(_.id)) += Author(None, "Author 2", now, 0)
+    val author3Id = (authors returning authors.map(_.id)) += Author(None, "Author 3", now, 0)
+
+    val question1Id = (questions returning questions.map(_.id)) += Question(None, author1Id.##, "What is the meaning of lift?", now, None, None)
+
     answers ++= Seq (
-      (None, author1Id.##, "This is my first post", now, None, None, 0),
-      (None, author2Id.##, "This is my very first question", now, None, None, 0)
+      Answer(None, question1Id.##, author2Id.##, "This is my first post", now, None, None, 0),
+      Answer(None, question1Id.##, author3Id.##, "This is my very first question", now, None, None, 0)
     )
 
-  println("*** Listing Authors ***")
+  println("*** Listing Content ***")
     println(authors.list)
-    answers.foreach(println)
+    println(questions.list)
+    println(answers.list)
 
+
+    val questionsAndAnswers = for {
+      question <- questions
+      questionAuthor <- question.author
+      answer <- question.answers
+      answerAuthor <- answer.author
+    } yield (question.id, questionAuthor.name,  question.content, answer.id , answerAuthor.name,  answer.content)
+
+    println("Questions with answers")
+    println(questionsAndAnswers.selectStatement)
+    println(questionsAndAnswers.list)
+
+    assert(questionsAndAnswers.list.length == 2, "Lengde" + questionsAndAnswers.list.length)
 
     (suppliers.ddl ++ coffees.ddl).create
     /* Create / Insert */

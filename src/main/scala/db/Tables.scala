@@ -3,26 +3,43 @@ package db
 import scala.slick.driver.H2Driver.simple._
 import scala.slick.lifted.{ProvenShape, ForeignKeyQuery}
 import java.sql.Timestamp
+import caseclasses.{Author, Answer, Question}
 
+class Questions(tag: Tag) extends Table[Question](tag, "QUESTIONS") {
+  def id = column[Int]("QUEST_ID", O.PrimaryKey, O.AutoInc)
+  def authorId = column[Int]("AUTHOR_ID", O.NotNull)
+  def content = column[String]("CONTENT", O.NotNull)
+  def createdDate = column[Timestamp]("CREATED_DATE", O.NotNull)
+  def lastEditedTS = column[Timestamp]("LAST_EDITED_TS", O.Nullable)
+  def lastEditedBy = column[Int]("LAST_EDITED_BY", O.Nullable)
 
-class Answers(tag: Tag) extends Table[(Option[Int], Int, String, Timestamp, Option[Timestamp], Option[Int], Int)](tag, "ANSWERS") {
-  def id: Column[Int] = column[Int]("ANSW_ID", O.PrimaryKey, O.AutoInc)
-  def authID: Column[Int] = column[Int]("AUTH_ID", O.NotNull)
-  def content: Column[String] = column[String]("CONTENT", O.NotNull)
-  def createdDate: Column[Timestamp] = column[Timestamp]("CREATED_DATE", O.NotNull)
-  def lastEdited: Column[Timestamp] = column[Timestamp]("LAST_EDITED", O.Nullable)
-  def editedBy: Column[Int] = column[Int]("EDITED_BY", O.Nullable)
-  def votes: Column[Int] = column[Int]("VOTES", O.Default(0))
+ // def tags = ???
 
-  def *  = (id.?, authID, content, createdDate, lastEdited.?, editedBy.?, votes)
+  def * = (id.?, authorId, content, createdDate, lastEditedTS.?, lastEditedBy.?) <> (Question.tupled, Question.unapply)
 
-  def author: ForeignKeyQuery[Authors, Author] =
-    foreignKey("AUTH_FK", authID, TableQuery[Authors])(_.id)
-  def editedByAuthor: ForeignKeyQuery[Authors, Author] =
-    foreignKey("EDITEDBY_FK", authID, TableQuery[Authors])(_.id)
-
+  def author = foreignKey("Q_AUTH_FK", authorId, TableQuery[Authors])(_.id)
+  def answers = TableQuery[Answers] where (_.questionID === id)
 }
 
+class Answers(tag: Tag) extends Table[Answer](tag, "ANSWERS") {
+  def id: Column[Int] = column[Int]("ANSW_ID", O.PrimaryKey, O.AutoInc)
+  def questionID: Column[Int] = column[Int]("QUESTION_ID", O.NotNull)
+  def authorId: Column[Int] = column[Int]("AUTHOR_ID", O.NotNull)
+  def content: Column[String] = column[String]("CONTENT", O.NotNull)
+  def createdDate: Column[Timestamp] = column[Timestamp]("CREATED_DATE", O.NotNull)
+  def lastEditedTS: Column[Timestamp] = column[Timestamp]("LAST_EDITED", O.Nullable)
+  def lastEditedBy: Column[Int] = column[Int]("EDITED_BY", O.Nullable)
+  def votes: Column[Int] = column[Int]("VOTES", O.Default(0))
+
+  def *  = (id.?, questionID, authorId, content, createdDate, lastEditedTS.?, lastEditedBy.?, votes) <> (Answer.tupled, Answer.unapply )
+
+  def question: ForeignKeyQuery[Questions, Question] =
+    foreignKey("QUESTION_FK", questionID, TableQuery[Questions])(_.id)
+  def author: ForeignKeyQuery[Authors, Author] =
+    foreignKey("A_AUTH_FK", authorId, TableQuery[Authors])(_.id)
+  def editedByAuthor: ForeignKeyQuery[Authors, Author] =
+    foreignKey("EDITEDBY_FK", authorId, TableQuery[Authors])(_.id)
+}
 class Authors(tag: Tag) extends Table[Author](tag, "AUTHORS") {
   def id: Column[Int] = column[Int]("AUTH_ID", O.PrimaryKey, O.AutoInc)
   def name: Column[String] = column[String]("NAME", O.NotNull)

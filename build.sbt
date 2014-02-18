@@ -1,4 +1,4 @@
-name := """activator-akka-spray"""
+name := """deepThought"""
 
 version := "1.0"
 

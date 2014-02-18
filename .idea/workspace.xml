@@ -1,7 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6263d3d8-37ad-4e9c-ad3a-00057e37ea80" name="Default" comment="" />
+    <list default="true" id="6263d3d8-37ad-4e9c-ad3a-00057e37ea80" name="Default" comment="Rename module to deepThought. Some more example code for slick&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/caseclasses/Entities.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-atmos-trace-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/.idea/modules/project-build.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-atmos-trace-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_scalaz_concurrent_2_10_7_0_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_effect_2_10_7_0_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_spray_spray_testkit_1_2_20130712_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-atmos-weave.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/activator-akka-spray/.idea_modules/activator-akka-spray-build.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sources_javadoc_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sources_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-atmos-trace-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_2_10_1_14_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_tools_testing_test_interface_0_5_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sources_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sources_javadoc_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-compile-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-atmos-trace-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-atmos-sigar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-atmos-dev.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/.idea/modules/project.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sbt_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-atmos-dev.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_novocode_junit_interface_0_7_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__junit_junit_4_8_2_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-atmos-sigar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-test-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_akka_akka_testkit_2_10_2_2_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-optional.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sources_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/db/Author.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-sources.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sbt_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-atmos-console.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sbt_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-atmos-weave.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__scala_2_10_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-runtime-internal.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-compile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-provided.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray_2.10-atmos-console.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sbt_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sources_javadoc_2.10/1.0/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-runtime.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_2.10-default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-plugin.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sources_javadoc_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_6_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/streams/compile/runMain/$global/out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_core_2_10_7_0_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sources_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_scalaz_core_2_10_7_0_0_test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray$sbt_2.10/1.0/resolved.xml.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-docs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-activator-akka-spray$sources_javadoc_2.10-scala-tool.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/activator-akka-spray_2.10/0.1-SNAPSHOT/resolved.xml.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/out" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=api.RegistrationServiceSpec/out" afterPath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=api.RegistrationServiceSpec/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-trace-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-trace-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/$global/update/$global/inputs" afterPath="$PROJECT_DIR$/project/project/target/streams/$global/update/$global/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=core.RegistrationActorSpec/out" afterPath="$PROJECT_DIR$/target/streams/test/test/isModule=false name=core.RegistrationActorSpec/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/$global/update/$global/output" afterPath="$PROJECT_DIR$/project/project/target/streams/$global/update/$global/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/runtime/fullClasspath/$global/export" afterPath="$PROJECT_DIR$/project/project/target/streams/runtime/fullClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-console.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-console.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/inc_compile" afterPath="$PROJECT_DIR$/target/streams/test/incCompileSetup/$global/inc_compile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/core.RegistrationActorSpec.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/core.RegistrationActorSpec.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/db/Tables.scala" afterPath="$PROJECT_DIR$/src/main/scala/db/Tables.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sources_javadoc_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sources_javadoc_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-trace-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-trace-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/out" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sbt_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sbt_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/compile/exportedProducts/$global/export" afterPath="$PROJECT_DIR$/project/project/target/streams/compile/exportedProducts/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-dev.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-dev.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/runtime/dependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/project/project/target/streams/runtime/dependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/db/HelloSlick.scala" afterPath="$PROJECT_DIR$/src/main/scala/db/HelloSlick.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sources_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sources_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sources_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sources_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-weave.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-weave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/export" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/out" afterPath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-console.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-console.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/modules/activator-akka-spray.iml" afterPath="$PROJECT_DIR$/.idea/modules/deepThought.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/$global/$global/data" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/out" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/compile/dependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/project/project/target/streams/compile/dependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/succeeded_tests" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/succeeded_tests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-trace-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-trace-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-weave.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-weave.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sources_javadoc_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sources_javadoc_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/runtime/internalDependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/project/project/target/streams/runtime/internalDependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/copyResources/$global/out" afterPath="$PROJECT_DIR$/target/streams/test/copyResources/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/api.RegistrationServiceSpec.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/api.RegistrationServiceSpec.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/export" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/export" afterPath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/inc_compile" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/inc_compile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/export" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sbt_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/activator-akka-spray/activator-akka-spray$sbt_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/export" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/out" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-sigar.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-sigar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateSbtClassifiers/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sbt_2.10-default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/$global/update/$global/out" afterPath="$PROJECT_DIR$/project/project/target/streams/$global/update/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-dev.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-dev.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/data" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/export" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/copy-resources" afterPath="$PROJECT_DIR$/target/streams/compile/copyResources/$global/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/target/streams/runtime/exportedProducts/$global/export" afterPath="$PROJECT_DIR$/project/project/target/streams/runtime/exportedProducts/$global/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-sigar.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-atmos-sigar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-trace-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/activator-akka-spray-activator-akka-spray$sources_javadoc_2.10-atmos-trace-test.xml" />
+    </list>
     <ignored path="activator-akka-spray.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,7 +241,89 @@
     <favorites_list name="activator-akka-spray" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Tables.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/db/Tables.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="40" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloSlick.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/db/HelloSlick.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="47" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="3600">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaseClassMapping.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/db/CaseClassMapping.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/api/services.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="6" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessengerService.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/api/MessengerService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationService.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/api/RegistrationService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="53" selection-start="687" selection-end="687" vertical-scroll-proportion="0.59821427" vertical-offset="10" max-vertical-offset="915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Api.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/api/Api.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="6" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="16" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entities.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/caseclasses/Entities.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="161" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -89,14 +348,16 @@
         <option value="$PROJECT_DIR$/src/main/scala/db/CaseClasses.java" />
         <option value="$PROJECT_DIR$/src/main/scala/db/CaseClasses.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/db/Author.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/db/Tables.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/db/HelloSlick.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/db/Tables.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/caseclasses/Entities.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
-    <option name="y" value="184" />
+    <option name="x" value="125" />
+    <option name="y" value="138" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -126,120 +387,51 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="deepThought">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
+              <option name="myItemId" value="deepThought" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
+              <option name="myItemId" value="deepThought" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
+              <option name="myItemId" value="deepThought" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
+              <option name="myItemId" value="deepThought" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
+              <option name="myItemId" value="deepThought" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -249,11 +441,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
+              <option name="myItemId" value="deepThought" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activator-akka-spray" />
+              <option name="myItemId" value="deepThought" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -262,12 +454,47 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepThought" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepThought" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config-classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepThought" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,14 +517,17 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/akka-spray-slick" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/caseclasses" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="db" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/akka-spray-slick" />
+    </key>
   </component>
-  <component name="RunManager" selected="Specs2.RegistrationActorSpec">
+  <component name="RunManager" selected="Application.HelloSlick">
     <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
       <module name="activator-akka-spray" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
@@ -376,6 +606,14 @@
       <setting name="consoleArgs" value="-usejavacp" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
       <module name="" />
       <setting name="path" value="" />
@@ -389,12 +627,17 @@
       <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -422,19 +665,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -493,8 +723,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Specs2.RegistrationActorSpec" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HelloSlick" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloSlick" />
+        <item index="1" class="java.lang.String" itemvalue="Specs2.RegistrationActorSpec" />
         <item index="2" class="java.lang.String" itemvalue="Application.CaseClassMapping" />
         <item index="3" class="java.lang.String" itemvalue="ScalaTest.TablesSuite" />
         <item index="4" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
@@ -516,18 +746,18 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="activator-akka-spray" />
+              <option name="name" value="deepThought" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="activator-akka-spray" />
+                <option name="name" value="deepthought" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="activator-akka-spray-build" />
+                <option name="name" value="deepthought-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -573,32 +803,11 @@
             </list>
           </value>
         </entry>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="project" />
-              <option name="path" value="$PROJECT_DIR$/project/project" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="project" />
-                <option name="path" value="$PROJECT_DIR$/project/project" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="project-build" />
-                <option name="path" value="$PROJECT_DIR$/project/project/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/IdeaProjects" value="1390944721000" />
-        <entry key="$PROJECT_DIR$" value="1392600067000" />
         <entry key="$USER_HOME$/hello-slick" value="1390933949000" />
         <entry key="$USER_HOME$/hello-slick/build.sbt" value="1390933938000" />
       </map>
@@ -651,7 +860,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="184" width="1400" height="1000" extended-state="0" />
+    <frame x="125" y="138" width="1400" height="1000" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -659,9 +868,10 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32929516" sideWeight="0.3458702" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25663716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -675,7 +885,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -692,6 +901,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Rename module to deepThought. Some more example code for slick&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename module to deepThought. Some more example code for slick&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -701,6 +912,195 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/CaseClassMapping.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/services.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="6" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/MessengerService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/RegistrationService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/Api.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/caseclasses/Entities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="161" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/Tables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/HelloSlick.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="47" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="3600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/CaseClassMapping.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/services.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="6" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/MessengerService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/RegistrationService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/Api.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/caseclasses/Entities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="161" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/Tables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/HelloSlick.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="47" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="3600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/CaseClassMapping.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/services.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="6" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/MessengerService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/RegistrationService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/Api.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/caseclasses/Entities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="161" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/Tables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/HelloSlick.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="35" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="3285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.specs2/specs2_2.10/srcs/specs2_2.10-1.14-sources.jar!/org/specs2/main/ArgumentsShortcuts.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="6" selection-start="571" selection-end="571" vertical-scroll-proportion="0.33274648" vertical-offset="66" max-vertical-offset="1950" />
@@ -776,6 +1176,69 @@
         <state line="198" column="8" selection-start="9571" selection-end="9571" vertical-scroll-proportion="0.38715595" vertical-offset="2669" max-vertical-offset="4305" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="16" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/Tables.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="123" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/HelloSlick.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="47" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="3600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/db/CaseClassMapping.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="7" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/services.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="6" selection-start="2504" selection-end="2504" vertical-scroll-proportion="0.0" vertical-offset="957" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/Api.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/MessengerService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/caseclasses/Entities.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="161" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/RegistrationService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="53" selection-start="687" selection-end="687" vertical-scroll-proportion="0.59821427" vertical-offset="10" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -829,12 +1292,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>activator-akka-spray</last-edited>
+          <last-edited>deepThought-build</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.44959444" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
